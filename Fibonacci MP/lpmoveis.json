@@ -1,0 +1,2073 @@
+{
+  "version": "0.4",
+  "title": "LP Móveis Planejados - Projetart",
+  "type": "page",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "sec_header",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#FAFAF8",
+        "border_border": "solid",
+        "border_width": { "unit": "px", "top": "0", "right": "0", "bottom": "1", "left": "0", "isLinked": false },
+        "border_color": "#EAEAEA",
+        "padding": { "unit": "px", "top": "16", "right": "20", "bottom": "16", "left": "20", "isLinked": false },
+        "_element_id": "topo"
+      },
+      "elements": [
+        {
+          "id": "col_h_logo",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "w_h_logo",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:flex;align-items:center;gap:12px;\"><div style=\"width:40px;height:40px;background:#B08A47;color:#ffffff;border-radius:6px;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:'Playfair Display',serif;font-size:22px;\">P</div><div><div style=\"font-family:'Playfair Display',serif;font-weight:700;font-size:18px;letter-spacing:1px;color:#222222;line-height:1.2;\">PROJETART</div><div style=\"font-family:'Inter',sans-serif;font-size:9px;letter-spacing:3px;color:#B08A47;font-weight:600;\">PLANEJADOS</div></div></div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_h_nav",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "w_h_nav",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<nav style=\"display:flex;justify-content:center;align-items:center;gap:24px;font-family:'Inter',sans-serif;font-size:14px;font-weight:500;padding:8px 0;\"><a href=\"#inicio\" style=\"color:#222222;text-decoration:none;\">Início</a><a href=\"#ambientes\" style=\"color:#555552;text-decoration:none;\">Ambientes</a><a href=\"#diferenciais\" style=\"color:#555552;text-decoration:none;\">Diferenciais</a><a href=\"#sobre\" style=\"color:#555552;text-decoration:none;\">Sobre</a><a href=\"#galeria\" style=\"color:#555552;text-decoration:none;\">Galeria</a><a href=\"#depoimentos\" style=\"color:#555552;text-decoration:none;\">Depoimentos</a></nav>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_h_btn",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "w_h_btn",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Falar no WhatsApp",
+                "link": {
+                  "url": "https://wa.me/5511999998888",
+                  "is_external": "on",
+                  "nofollow": ""
+                },
+                "align": "right",
+                "size": "sm",
+                "button_text_color": "#FFFFFF",
+                "background_color": "#B08A47",
+                "border_radius": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 13 },
+                "typography_font_weight": "600",
+                "selected_icon": { "value": "fab fa-whatsapp", "library": "fa-brands" },
+                "icon_align": "left",
+                "icon_indent": { "unit": "px", "size": 8 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_hero",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#FAFAF8",
+        "padding": { "unit": "px", "top": "70", "right": "20", "bottom": "70", "left": "20", "isLinked": false },
+        "_element_id": "inicio"
+      },
+      "elements": [
+        {
+          "id": "col_hero_content",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 55,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "w_hero_badge",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:inline-flex;align-items:center;gap:8px;background:rgba(176,138,71,0.12);border:1px solid rgba(176,138,71,0.25);padding:6px 14px;border-radius:20px;font-family:'Inter',sans-serif;font-size:12px;font-weight:600;color:#B08A47;letter-spacing:0.5px;text-transform:uppercase;\"><span style=\"width:6px;height:6px;background:#B08A47;border-radius:50%;display:inline-block;\"></span> Marcenaria & Arquitetura Sob Medida</div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_hero_h1",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Móveis Planejados de Alto Padrão: Projetos Exclusivos para Seu Lar",
+                "header_size": "h1",
+                "title_color": "#222222",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 44 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.18 },
+                "_margin": { "unit": "px", "top": "16", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_hero_sub",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:20px;font-weight:500;color:#222222;line-height:1.4;margin-bottom:12px;\">Seu lar merece mais do que móveis. Merece um projeto <span style=\"color:#B08A47;font-family:'Playfair Display',serif;font-style:italic;\">pensado para você.</span></p><p style=\"font-size:16px;color:#555552;line-height:1.65;margin:0;\">Criamos ambientes planejados exclusivos que unem design, funcionalidade e acabamento impecável para transformar a forma como você vive todos os dias.</p>",
+                "text_color": "#555552",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_hero_list",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "Projeto 100% personalizado conforme sua planta",
+                    "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" }
+                  },
+                  {
+                    "text": "Materiais nobres e ferragens italianas de alta durabilidade",
+                    "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" }
+                  },
+                  {
+                    "text": "Acompanhamento dedicado do conceito 3D até a montagem",
+                    "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" }
+                  },
+                  {
+                    "text": "Instalação de excelência com garantia estendida de 5 anos",
+                    "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" }
+                  }
+                ],
+                "icon_color": "#B08A47",
+                "text_color": "#222222",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 15 },
+                "typography_font_weight": "500",
+                "space_between": { "unit": "px", "size": 12 },
+                "_margin": { "unit": "px", "top": "20", "right": "0", "bottom": "24", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_hero_cta",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Solicitar meu projeto exclusivo",
+                "link": {
+                  "url": "https://wa.me/5511999998888",
+                  "is_external": "on",
+                  "nofollow": ""
+                },
+                "align": "left",
+                "size": "lg",
+                "button_text_color": "#FFFFFF",
+                "background_color": "#B08A47",
+                "border_radius": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 16 },
+                "typography_font_weight": "600",
+                "selected_icon": { "value": "fab fa-whatsapp", "library": "fa-brands" },
+                "icon_align": "left",
+                "icon_indent": { "unit": "px", "size": 10 },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": { "horizontal": 0, "vertical": 10, "blur": 25, "spread": 0, "color": "rgba(176,138,71,0.3)" }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_hero_guarantee",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:flex;align-items:center;gap:8px;font-family:'Inter',sans-serif;font-size:13px;color:#7A7A75;margin-top:14px;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#B08A47\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg> Consultoria inicial sem compromisso diretamente no WhatsApp.</div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_hero_visual",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 45,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "w_hero_img",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "assets/images/hero_kitchen.jpg",
+                  "id": ""
+                },
+                "image_size": "full",
+                "align": "center",
+                "image_border_radius": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
+                "image_box_shadow_box_shadow_type": "yes",
+                "image_box_shadow_box_shadow": { "horizontal": 0, "vertical": 20, "blur": 40, "spread": 0, "color": "rgba(0,0,0,0.1)" }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_hero_float_card",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"background:#FFFFFF;border:1px solid #EAEAEA;border-radius:12px;padding:16px 20px;box-shadow:0 12px 30px rgba(0,0,0,0.08);margin-top:-30px;position:relative;z-index:2;display:flex;align-items:center;gap:14px;max-width:380px;margin-left:auto;margin-right:20px;\"><div style=\"width:44px;height:44px;border-radius:50%;background:rgba(176,138,71,0.12);color:#B08A47;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px;\"><i class=\"fas fa-gem\"></i></div><div><div style=\"font-family:'Inter',sans-serif;font-size:14px;font-weight:700;color:#222222;margin-bottom:2px;\">Acabamento Impecável</div><div style=\"font-family:'Inter',sans-serif;font-size:12px;color:#555552;line-height:1.4;\">Móveis sob medida com ferragens italianas e corte milimétrico</div></div></div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_trust",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": { "unit": "px", "top": "1", "right": "0", "bottom": "1", "left": "0", "isLinked": false },
+        "border_color": "#EAEAEA",
+        "padding": { "unit": "px", "top": "26", "right": "20", "bottom": "26", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "col_trust_1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "w_trust_1",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-user-check", "library": "fa-solid" },
+                "title_text": "Atendimento personalizado",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#B08A47",
+                "title_color": "#222222",
+                "title_size": "h5",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 15 },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_trust_2",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "w_trust_2",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-drafting-compass", "library": "fa-solid" },
+                "title_text": "Projeto exclusivo",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#B08A47",
+                "title_color": "#222222",
+                "title_size": "h5",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 15 },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_trust_3",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "w_trust_3",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-medal", "library": "fa-solid" },
+                "title_text": "Acabamento premium",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#B08A47",
+                "title_color": "#222222",
+                "title_size": "h5",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 15 },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_trust_4",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "w_trust_4",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-cube", "library": "fa-solid" },
+                "title_text": "Marcenaria sob medida",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#B08A47",
+                "title_color": "#222222",
+                "title_size": "h5",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 15 },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_ambientes_header",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#FAFAF8",
+        "padding": { "unit": "px", "top": "80", "right": "20", "bottom": "10", "left": "20", "isLinked": false },
+        "_element_id": "ambientes"
+      },
+      "elements": [
+        {
+          "id": "col_amb_header",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "w_amb_badge",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"text-align:center;\"><span style=\"display:inline-block;background:rgba(176,138,71,0.12);color:#B08A47;font-family:'Inter',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:5px 16px;border-radius:20px;\">Coleções & Espaços</span></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_amb_h2",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ambientes criados para valorizar seu imóvel e sua rotina",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#222222",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "12", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_amb_desc",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;max-width:760px;margin:0 auto;color:#555552;font-size:16px;line-height:1.6;\">Cada projeto nasce da combinação entre estética, ergonomia e inteligência de espaço. O resultado é um ambiente bonito hoje e funcional por muitos anos.</p>",
+                "text_color": "#555552",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_amb_spacer",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "spacer",
+              "settings": {
+                "space": { "unit": "px", "size": 35 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_amb_cozinha",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#FAFAF8",
+        "padding": { "unit": "px", "top": "30", "right": "20", "bottom": "30", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "col_coz_img",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "w_coz_img",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "assets/images/hero_kitchen.jpg", "id": "" },
+                "image_size": "full",
+                "image_border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true },
+                "image_box_shadow_box_shadow_type": "yes",
+                "image_box_shadow_box_shadow": { "horizontal": 0, "vertical": 12, "blur": 30, "spread": 0, "color": "rgba(0,0,0,0.07)" }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_coz_content",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "w_coz_tag",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"font-family:'Inter',sans-serif;font-size:12px;font-weight:700;color:#B08A47;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;\">Gastronomia & Convivência</div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_coz_title",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Cozinhas Planejadas",
+                "header_size": "h3",
+                "title_color": "#222222",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 30 },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_coz_desc",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#555552;font-size:15px;line-height:1.65;\">Mais organização, praticidade e elegância para o ambiente mais importante da casa. Desenhadas para integrar a culinária ao prazer de receber bem, com aproveitamento inteligente de cada centímetro.</p>",
+                "text_color": "#555552",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_coz_list",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "Sistemas de amortecimento e ferragens ocultas alemãs",
+                    "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }
+                  },
+                  {
+                    "text": "Iluminação linear em LED quente embutida nas bancadas",
+                    "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }
+                  },
+                  {
+                    "text": "Divisórias internas customizadas para utensílios e louças nobres",
+                    "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }
+                  }
+                ],
+                "icon_color": "#B08A47",
+                "text_color": "#222222",
+                "space_between": { "unit": "px", "size": 10 },
+                "_margin": { "unit": "px", "top": "14", "right": "0", "bottom": "18", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_coz_btn",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Personalizar Cozinha",
+                "link": { "url": "https://wa.me/5511999998888", "is_external": "on", "nofollow": "" },
+                "button_text_color": "#B08A47",
+                "background_color": "transparent",
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                "border_color": "#B08A47",
+                "border_radius": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 14 },
+                "typography_font_weight": "600",
+                "selected_icon": { "value": "fab fa-whatsapp", "library": "fa-brands" },
+                "icon_align": "left",
+                "icon_indent": { "unit": "px", "size": 8 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_amb_dormitorio",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#FAFAF8",
+        "padding": { "unit": "px", "top": "30", "right": "20", "bottom": "30", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "col_dorm_content",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "w_dorm_tag",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"font-family:'Inter',sans-serif;font-size:12px;font-weight:700;color:#B08A47;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;\">Descanso & Privacidade</div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_dorm_title",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dormitórios e Suítes",
+                "header_size": "h3",
+                "title_color": "#222222",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 30 },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_dorm_desc",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#555552;font-size:15px;line-height:1.65;\">Um refúgio pessoal focado em conforto absoluto, organização impecável e personalidade. Cabeceiras estofadas, painéis ripados e armários sob medida projetados para acolher sua rotina com tranquilidade.</p>",
+                "text_color": "#555552",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_dorm_list",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "Armários com portas deslizantes em vidro reflecta e alumínio anodizado",
+                    "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }
+                  },
+                  {
+                    "text": "Cabeceiras estofadas integradas com mesas de apoio suspensas",
+                    "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }
+                  },
+                  {
+                    "text": "Acústica aprimorada e texturas nobres que despertam bem-estar",
+                    "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }
+                  }
+                ],
+                "icon_color": "#B08A47",
+                "text_color": "#222222",
+                "space_between": { "unit": "px", "size": 10 },
+                "_margin": { "unit": "px", "top": "14", "right": "0", "bottom": "18", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_dorm_btn",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Projetar Dormitório",
+                "link": { "url": "https://wa.me/5511999998888", "is_external": "on", "nofollow": "" },
+                "button_text_color": "#B08A47",
+                "background_color": "transparent",
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                "border_color": "#B08A47",
+                "border_radius": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 14 },
+                "typography_font_weight": "600",
+                "selected_icon": { "value": "fab fa-whatsapp", "library": "fa-brands" },
+                "icon_align": "left",
+                "icon_indent": { "unit": "px", "size": 8 }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_dorm_img",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "w_dorm_img",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "assets/images/ambiente_dormitorio.jpg", "id": "" },
+                "image_size": "full",
+                "image_border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true },
+                "image_box_shadow_box_shadow_type": "yes",
+                "image_box_shadow_box_shadow": { "horizontal": 0, "vertical": 12, "blur": 30, "spread": 0, "color": "rgba(0,0,0,0.07)" }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_amb_living",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#FAFAF8",
+        "padding": { "unit": "px", "top": "30", "right": "20", "bottom": "80", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "col_liv_img",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "w_liv_img",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "assets/images/ambiente_living.jpg", "id": "" },
+                "image_size": "full",
+                "image_border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true },
+                "image_box_shadow_box_shadow_type": "yes",
+                "image_box_shadow_box_shadow": { "horizontal": 0, "vertical": 12, "blur": 30, "spread": 0, "color": "rgba(0,0,0,0.07)" }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_liv_content",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "w_liv_tag",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"font-family:'Inter',sans-serif;font-size:12px;font-weight:700;color:#B08A47;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;\">Integração & Sofisticação</div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_liv_title",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Livings e Salas Integradas",
+                "header_size": "h3",
+                "title_color": "#222222",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 30 },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_liv_desc",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#555552;font-size:15px;line-height:1.65;\">Ambientes projetados para valorizar a arquitetura do seu imóvel. Painéis ripados, home theaters com cabeamento 100% invisível e estantes contemporâneas que transformam o estar no centro da sofisticação.</p>",
+                "text_color": "#555552",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_liv_list",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "Painéis de TV com nichos iluminados e integração para lareiras",
+                    "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }
+                  },
+                  {
+                    "text": "Estantes modulares com estrutura metálica e marcenaria nobre",
+                    "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }
+                  },
+                  {
+                    "text": "Harmonização fluida entre salas de jantar, estar e varanda gourmet",
+                    "selected_icon": { "value": "fas fa-check", "library": "fa-solid" }
+                  }
+                ],
+                "icon_color": "#B08A47",
+                "text_color": "#222222",
+                "space_between": { "unit": "px", "size": 10 },
+                "_margin": { "unit": "px", "top": "14", "right": "0", "bottom": "18", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_liv_btn",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Integrar Living",
+                "link": { "url": "https://wa.me/5511999998888", "is_external": "on", "nofollow": "" },
+                "button_text_color": "#B08A47",
+                "background_color": "transparent",
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                "border_color": "#B08A47",
+                "border_radius": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 14 },
+                "typography_font_weight": "600",
+                "selected_icon": { "value": "fab fa-whatsapp", "library": "fa-brands" },
+                "icon_align": "left",
+                "icon_indent": { "unit": "px", "size": 8 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_diferenciais",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#F4F4F0",
+        "padding": { "unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false },
+        "_element_id": "diferenciais"
+      },
+      "elements": [
+        {
+          "id": "col_dif_main",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "w_dif_badge",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"text-align:center;\"><span style=\"display:inline-block;background:rgba(176,138,71,0.12);color:#B08A47;font-family:'Inter',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:5px 16px;border-radius:20px;\">Exclusividade & Rigor</span></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_dif_h2",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Por que escolher a Projetart?",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#222222",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "12", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_dif_desc",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;max-width:760px;margin:0 auto;color:#555552;font-size:16px;line-height:1.6;\">Unimos a precisão industrial à arte da marcenaria artesanal, proporcionando uma experiência de compra transparente, pontual e focada no cliente.</p>",
+                "text_color": "#555552",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_dif_spacer",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "spacer",
+              "settings": { "space": { "unit": "px", "size": 40 } },
+              "elements": []
+            },
+            {
+              "id": "sec_dif_cards",
+              "elType": "section",
+              "isInner": true,
+              "settings": { "gap": "default" },
+              "elements": [
+                {
+                  "id": "col_dif_card_1",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "30", "right": "24", "bottom": "30", "left": "24", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_dif_box_1",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": { "value": "fas fa-ruler-combined", "library": "fa-solid" },
+                        "title_text": "Projeto sob medida",
+                        "description_text": "Nada de soluções prontas ou módulos engessados. Tudo é desenvolvido estritamente conforme as medidas e necessidades do seu espaço.",
+                        "position": "top",
+                        "primary_color": "#B08A47",
+                        "title_color": "#222222",
+                        "title_size": "h4",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Playfair Display",
+                        "typography_font_size": { "unit": "px", "size": 20 },
+                        "typography_font_weight": "700",
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Inter",
+                        "typography_description_font_size": { "unit": "px", "size": 14 },
+                        "typography_description_line_height": { "unit": "em", "size": 1.6 }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_dif_card_2",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "30", "right": "24", "bottom": "30", "left": "24", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_dif_box_2",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": { "value": "fas fa-pencil-ruler", "library": "fa-solid" },
+                        "title_text": "Design sofisticado",
+                        "description_text": "Estética contemporânea aliada à máxima ergonomia e inteligência funcional, valorizando seu investimento a curto e longo prazo.",
+                        "position": "top",
+                        "primary_color": "#B08A47",
+                        "title_color": "#222222",
+                        "title_size": "h4",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Playfair Display",
+                        "typography_font_size": { "unit": "px", "size": 20 },
+                        "typography_font_weight": "700",
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Inter",
+                        "typography_description_font_size": { "unit": "px", "size": 14 },
+                        "typography_description_line_height": { "unit": "em", "size": 1.6 }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_dif_card_3",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "30", "right": "24", "bottom": "30", "left": "24", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_dif_box_3",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": { "value": "fas fa-shield-alt", "library": "fa-solid" },
+                        "title_text": "Qualidade em cada detalhe",
+                        "description_text": "Materiais rigorosamente selecionados, MDF de alta densidade, fitamento preciso e ferragens de alta durabilidade com garantia estendida.",
+                        "position": "top",
+                        "primary_color": "#B08A47",
+                        "title_color": "#222222",
+                        "title_size": "h4",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Playfair Display",
+                        "typography_font_size": { "unit": "px", "size": 20 },
+                        "typography_font_weight": "700",
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Inter",
+                        "typography_description_font_size": { "unit": "px", "size": 14 },
+                        "typography_description_line_height": { "unit": "em", "size": 1.6 }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_dif_card_4",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 25,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "30", "right": "24", "bottom": "30", "left": "24", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_dif_box_4",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": { "value": "fas fa-handshake", "library": "fa-solid" },
+                        "title_text": "Atendimento próximo",
+                        "description_text": "Acompanhamento dedicado e personalizado desde a concepção do briefing 3D até a entrega e montagem final da sua marcenaria.",
+                        "position": "top",
+                        "primary_color": "#B08A47",
+                        "title_color": "#222222",
+                        "title_size": "h4",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Playfair Display",
+                        "typography_font_size": { "unit": "px", "size": 20 },
+                        "typography_font_weight": "700",
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Inter",
+                        "typography_description_font_size": { "unit": "px", "size": 14 },
+                        "typography_description_line_height": { "unit": "em", "size": 1.6 }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_sobre",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#FAFAF8",
+        "padding": { "unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false },
+        "_element_id": "sobre"
+      },
+      "elements": [
+        {
+          "id": "col_sobre_visual",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 45 },
+          "elements": [
+            {
+              "id": "w_sobre_img",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "assets/images/sobre_showroom.jpg", "id": "" },
+                "image_size": "full",
+                "image_border_radius": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
+                "image_box_shadow_box_shadow_type": "yes",
+                "image_box_shadow_box_shadow": { "horizontal": 0, "vertical": 15, "blur": 35, "spread": 0, "color": "rgba(0,0,0,0.08)" }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_sobre_badge",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"background:#B08A47;color:#FFFFFF;border-radius:12px;padding:14px 24px;display:inline-flex;align-items:center;gap:12px;margin-top:-25px;position:relative;z-index:2;box-shadow:0 10px 25px rgba(176,138,71,0.3);\"><span style=\"font-family:'Playfair Display',serif;font-size:28px;font-weight:700;\">100%</span><span style=\"font-family:'Inter',sans-serif;font-size:13px;font-weight:600;line-height:1.2;\">Personalizado e Sob Medida</span></div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_sobre_content",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 55 },
+          "elements": [
+            {
+              "id": "w_sobre_tag",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<span style=\"display:inline-block;background:rgba(176,138,71,0.12);color:#B08A47;font-family:'Inter',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:5px 16px;border-radius:20px;margin-bottom:12px;\">A Projetart Planejados</span>"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_sobre_title",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Não vendemos móveis. Criamos espaços que contam histórias.",
+                "header_size": "h2",
+                "title_color": "#222222",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 34 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_sobre_text",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#555552;font-size:15px;line-height:1.7;margin-bottom:14px;\">Na Projetart, acreditamos que cada ambiente deve refletir a autenticidade de quem vive nele. A marcenaria é a espinha dorsal da arquitetura de interiores — é onde estética, aconchego e eficiência se encontram.</p><p style=\"color:#555552;font-size:15px;line-height:1.7;margin-bottom:14px;\">Desenvolvemos projetos exclusivos que equilibram beleza, conforto e funcionalidade, acompanhando nossos clientes desde a primeira conversa e apresentação do 3D até a instalação final e revisão minuciosa de cada ajuste.</p><p style=\"color:#555552;font-size:15px;line-height:1.7;margin:0;\">Nosso compromisso é entregar um resultado que supere expectativas e transforme sua casa em um lugar verdadeiramente acolhedor e único.</p>",
+                "text_color": "#555552",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter"
+              },
+              "elements": []
+            },
+            {
+              "id": "sec_sobre_metrics",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default",
+                "_margin": { "unit": "px", "top": "25", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "col_stat_1",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true },
+                    "padding": { "unit": "px", "top": "16", "right": "12", "bottom": "16", "left": "12", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_stat_1",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "counter",
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 850,
+                        "prefix": "+",
+                        "title": "Ambientes Entregues",
+                        "number_color": "#B08A47",
+                        "title_color": "#555552",
+                        "typography_number_typography": "custom",
+                        "typography_number_font_family": "Playfair Display",
+                        "typography_number_font_size": { "unit": "px", "size": 32 },
+                        "typography_number_font_weight": "700",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Inter",
+                        "typography_title_font_size": { "unit": "px", "size": 13 },
+                        "typography_title_font_weight": "600"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_stat_2",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true },
+                    "padding": { "unit": "px", "top": "16", "right": "12", "bottom": "16", "left": "12", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_stat_2",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "counter",
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 12,
+                        "suffix": " Anos",
+                        "title": "Tradição no Mercado",
+                        "number_color": "#B08A47",
+                        "title_color": "#555552",
+                        "typography_number_typography": "custom",
+                        "typography_number_font_family": "Playfair Display",
+                        "typography_number_font_size": { "unit": "px", "size": 32 },
+                        "typography_number_font_weight": "700",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Inter",
+                        "typography_title_font_size": { "unit": "px", "size": 13 },
+                        "typography_title_font_weight": "600"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_stat_3",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true },
+                    "padding": { "unit": "px", "top": "16", "right": "12", "bottom": "16", "left": "12", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_stat_3",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "counter",
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 5,
+                        "suffix": " Anos",
+                        "title": "Garantia de Fábrica",
+                        "number_color": "#B08A47",
+                        "title_color": "#555552",
+                        "typography_number_typography": "custom",
+                        "typography_number_font_family": "Playfair Display",
+                        "typography_number_font_size": { "unit": "px", "size": 32 },
+                        "typography_number_font_weight": "700",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Inter",
+                        "typography_title_font_size": { "unit": "px", "size": 13 },
+                        "typography_title_font_weight": "600"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_galeria",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#F4F4F0",
+        "padding": { "unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false },
+        "_element_id": "galeria"
+      },
+      "elements": [
+        {
+          "id": "col_gal_main",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "w_gal_badge",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"text-align:center;\"><span style=\"display:inline-block;background:rgba(176,138,71,0.12);color:#B08A47;font-family:'Inter',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:5px 16px;border-radius:20px;\">Portfólio Selecionado</span></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_gal_h2",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Galeria de Projetos",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#222222",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "12", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_gal_desc",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;max-width:760px;margin:0 auto;color:#555552;font-size:16px;line-height:1.6;\">Inspire-se com alguns dos ambientes residenciais planejados entregues pela Projetart com acabamento de alto padrão.</p>",
+                "text_color": "#555552",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_gal_spacer",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "spacer",
+              "settings": { "space": { "unit": "px", "size": 35 } },
+              "elements": []
+            },
+            {
+              "id": "sec_gal_row_1",
+              "elType": "section",
+              "isInner": true,
+              "settings": { "gap": "default" },
+              "elements": [
+                {
+                  "id": "col_gal_1",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_gal_img_1",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "assets/images/hero_kitchen.jpg", "id": "" },
+                        "image_size": "full",
+                        "image_border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "0", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "w_gal_info_1",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"padding:16px 18px;\"><div style=\"font-family:'Inter',sans-serif;font-size:11px;font-weight:700;color:#B08A47;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;\">Cozinha</div><div style=\"font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:#222222;margin-bottom:8px;\">Cozinha Gourmet Calacatta</div><a href=\"https://wa.me/5511999998888\" target=\"_blank\" style=\"display:inline-flex;align-items:center;gap:6px;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:#B08A47;text-decoration:none;\">Ver no WhatsApp &rarr;</a></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_gal_2",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_gal_img_2",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "assets/images/galeria_closet.jpg", "id": "" },
+                        "image_size": "full",
+                        "image_border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "0", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "w_gal_info_2",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"padding:16px 18px;\"><div style=\"font-family:'Inter',sans-serif;font-size:11px;font-weight:700;color:#B08A47;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;\">Closet</div><div style=\"font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:#222222;margin-bottom:8px;\">Closet Master Iluminado</div><a href=\"https://wa.me/5511999998888\" target=\"_blank\" style=\"display:inline-flex;align-items:center;gap:6px;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:#B08A47;text-decoration:none;\">Ver no WhatsApp &rarr;</a></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_gal_3",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_gal_img_3",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "assets/images/ambiente_dormitorio.jpg", "id": "" },
+                        "image_size": "full",
+                        "image_border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "0", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "w_gal_info_3",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"padding:16px 18px;\"><div style=\"font-family:'Inter',sans-serif;font-size:11px;font-weight:700;color:#B08A47;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;\">Dormitório</div><div style=\"font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:#222222;margin-bottom:8px;\">Suíte Master Ripada</div><a href=\"https://wa.me/5511999998888\" target=\"_blank\" style=\"display:inline-flex;align-items:center;gap:6px;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:#B08A47;text-decoration:none;\">Ver no WhatsApp &rarr;</a></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "w_gal_row_spacer",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "spacer",
+              "settings": { "space": { "unit": "px", "size": 24 } },
+              "elements": []
+            },
+            {
+              "id": "sec_gal_row_2",
+              "elType": "section",
+              "isInner": true,
+              "settings": { "gap": "default" },
+              "elements": [
+                {
+                  "id": "col_gal_4",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_gal_img_4",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "assets/images/ambiente_living.jpg", "id": "" },
+                        "image_size": "full",
+                        "image_border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "0", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "w_gal_info_4",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"padding:16px 18px;\"><div style=\"font-family:'Inter',sans-serif;font-size:11px;font-weight:700;color:#B08A47;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;\">Living</div><div style=\"font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:#222222;margin-bottom:8px;\">Living Integrado Contemporâneo</div><a href=\"https://wa.me/5511999998888\" target=\"_blank\" style=\"display:inline-flex;align-items:center;gap:6px;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:#B08A47;text-decoration:none;\">Ver no WhatsApp &rarr;</a></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_gal_5",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_gal_img_5",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "assets/images/galeria_homeoffice.jpg", "id": "" },
+                        "image_size": "full",
+                        "image_border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "0", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "w_gal_info_5",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"padding:16px 18px;\"><div style=\"font-family:'Inter',sans-serif;font-size:11px;font-weight:700;color:#B08A47;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;\">Home Office</div><div style=\"font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:#222222;margin-bottom:8px;\">Home Office Executivo</div><a href=\"https://wa.me/5511999998888\" target=\"_blank\" style=\"display:inline-flex;align-items:center;gap:6px;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:#B08A47;text-decoration:none;\">Ver no WhatsApp &rarr;</a></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_gal_6",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#EAEAEA",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+                  },
+                  "elements": [
+                    {
+                      "id": "w_gal_img_6",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "assets/images/galeria_banheiro.jpg", "id": "" },
+                        "image_size": "full",
+                        "image_border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "0", "left": "0", "isLinked": false }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "w_gal_info_6",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"padding:16px 18px;\"><div style=\"font-family:'Inter',sans-serif;font-size:11px;font-weight:700;color:#B08A47;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;\">Banheiro</div><div style=\"font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:#222222;margin-bottom:8px;\">Banheiro Spa & Lavabo</div><a href=\"https://wa.me/5511999998888\" target=\"_blank\" style=\"display:inline-flex;align-items:center;gap:6px;font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:#B08A47;text-decoration:none;\">Ver no WhatsApp &rarr;</a></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_depoimentos",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#FAFAF8",
+        "padding": { "unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false },
+        "_element_id": "depoimentos"
+      },
+      "elements": [
+        {
+          "id": "col_dep_main",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "w_dep_badge",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"text-align:center;\"><span style=\"display:inline-block;background:rgba(176,138,71,0.12);color:#B08A47;font-family:'Inter',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:5px 16px;border-radius:20px;\">Depoimentos Reais</span></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_dep_h2",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "O resultado aparece em cada detalhe",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#222222",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "12", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_dep_desc",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;max-width:760px;margin:0 auto;color:#555552;font-size:16px;line-height:1.6;\">A satisfação dos nossos clientes comprova a pontualidade, precisão técnica e requinte de cada ambiente entregue.</p>",
+                "text_color": "#555552",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_dep_spacer",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "spacer",
+              "settings": { "space": { "unit": "px", "size": 40 } },
+              "elements": []
+            },
+            {
+              "id": "sec_dep_cards",
+              "elType": "section",
+              "isInner": true,
+              "settings": { "gap": "default" },
+              "elements": [
+                {
+                  "id": "col_dep_1",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": { "_column_size": 33 },
+                  "elements": [
+                    {
+                      "id": "w_dep_card_1",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"background:#FFFFFF;border:1px solid #EAEAEA;border-radius:14px;padding:28px 24px;box-shadow:0 8px 20px rgba(0,0,0,0.04);display:flex;flex-direction:column;height:100%;\"><div style=\"color:#B08A47;font-size:16px;margin-bottom:14px;\"><i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i></div><blockquote style=\"font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:#222222;line-height:1.6;margin:0 0 20px 0;flex-grow:1;\">&ldquo;O projeto ficou exatamente como imaginávamos. Cada espaço foi aproveitado com perfeição e o acabamento impressiona a todos que visitam nosso apartamento. A equipe foi impecável do 3D à montagem.&rdquo;</blockquote><div style=\"display:flex;align-items:center;gap:12px;border-top:1px solid #F0F0EC;padding-top:16px;\"><div style=\"width:40px;height:40px;border-radius:50%;background:#B08A47;color:#FFFFFF;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:'Inter',sans-serif;font-size:14px;\">RC</div><div><div style=\"font-family:'Inter',sans-serif;font-weight:700;font-size:14px;color:#222222;\">Renata & Carlos Silveira</div><div style=\"font-family:'Inter',sans-serif;font-size:12px;color:#7A7A75;\">Apartamento 240m² • Jardins, SP</div></div></div></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_dep_2",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": { "_column_size": 33 },
+                  "elements": [
+                    {
+                      "id": "w_dep_card_2",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"background:#FFFFFF;border:1px solid #EAEAEA;border-radius:14px;padding:28px 24px;box-shadow:0 8px 20px rgba(0,0,0,0.04);display:flex;flex-direction:column;height:100%;\"><div style=\"color:#B08A47;font-size:16px;margin-bottom:14px;\"><i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i></div><blockquote style=\"font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:#222222;line-height:1.6;margin:0 0 20px 0;flex-grow:1;\">&ldquo;Fizemos a cozinha e a suíte principal com a Projetart durante a reforma da nossa casa. A marcenaria sob medida entregou uma sofisticação sem precedentes. Pontualidade britânica no prazo acordado.&rdquo;</blockquote><div style=\"display:flex;align-items:center;gap:12px;border-top:1px solid #F0F0EC;padding-top:16px;\"><div style=\"width:40px;height:40px;border-radius:50%;background:#B08A47;color:#FFFFFF;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:'Inter',sans-serif;font-size:14px;\">MA</div><div><div style=\"font-family:'Inter',sans-serif;font-weight:700;font-size:14px;color:#222222;\">Marcelo Albuquerque</div><div style=\"font-family:'Inter',sans-serif;font-size:12px;color:#7A7A75;\">Residência Alphaville • Barueri, SP</div></div></div></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "col_dep_3",
+                  "elType": "column",
+                  "isInner": false,
+                  "settings": { "_column_size": 33 },
+                  "elements": [
+                    {
+                      "id": "w_dep_card_3",
+                      "elType": "widget",
+                      "isInner": false,
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"background:#FFFFFF;border:1px solid #EAEAEA;border-radius:14px;padding:28px 24px;box-shadow:0 8px 20px rgba(0,0,0,0.04);display:flex;flex-direction:column;height:100%;\"><div style=\"color:#B08A47;font-size:16px;margin-bottom:14px;\"><i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i> <i class=\"fas fa-star\"></i></div><blockquote style=\"font-family:'Playfair Display',serif;font-style:italic;font-size:16px;color:#222222;line-height:1.6;margin:0 0 20px 0;flex-grow:1;\">&ldquo;O atendimento próximo e atencioso fez toda a diferença. Conseguiram captar com exatidão o estilo minimalista e contemporâneo que queríamos para o living e closet. Superou todas as expectativas.&rdquo;</blockquote><div style=\"display:flex;align-items:center;gap:12px;border-top:1px solid #F0F0EC;padding-top:16px;\"><div style=\"width:40px;height:40px;border-radius:50%;background:#B08A47;color:#FFFFFF;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:'Inter',sans-serif;font-size:14px;\">BM</div><div><div style=\"font-family:'Inter',sans-serif;font-weight:700;font-size:14px;color:#222222;\">Beatriz Mendes</div><div style=\"font-family:'Inter',sans-serif;font-size:12px;color:#7A7A75;\">Cobertura Duplex • Itaim Bibi, SP</div></div></div></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_cta_final",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#FAFAF8",
+        "padding": { "unit": "px", "top": "30", "right": "20", "bottom": "90", "left": "20", "isLinked": false },
+        "_element_id": "orcamento"
+      },
+      "elements": [
+        {
+          "id": "col_cta_box",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "background_background": "classic",
+            "background_color": "#181816",
+            "border_border": "solid",
+            "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+            "border_color": "rgba(176,138,71,0.3)",
+            "border_radius": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+            "padding": { "unit": "px", "top": "60", "right": "30", "bottom": "60", "left": "30", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w_cta_badge",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"text-align:center;\"><span style=\"display:inline-block;background:rgba(176,138,71,0.2);color:#B08A47;font-family:'Inter',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:6px 18px;border-radius:20px;border:1px solid rgba(176,138,71,0.3);\">Consultoria Exclusiva</span></div>"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_cta_h2",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Vamos transformar seu ambiente?",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": 40 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "16", "right": "0", "bottom": "14", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_cta_desc",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;max-width:700px;margin:0 auto;color:#B4B4AD;font-size:17px;line-height:1.65;\">Solicite um orçamento personalizado e descubra como criar um projeto exclusivo para o seu espaço, com a qualidade e o refinamento que você merece.</p>",
+                "text_color": "#B4B4AD",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter"
+              },
+              "elements": []
+            },
+            {
+              "id": "w_cta_btn",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Quero falar com um especialista",
+                "link": {
+                  "url": "https://wa.me/5511999998888",
+                  "is_external": "on",
+                  "nofollow": ""
+                },
+                "align": "center",
+                "size": "lg",
+                "button_text_color": "#FFFFFF",
+                "background_color": "#B08A47",
+                "border_radius": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 16 },
+                "typography_font_weight": "600",
+                "selected_icon": { "value": "fab fa-whatsapp", "library": "fa-brands" },
+                "icon_align": "left",
+                "icon_indent": { "unit": "px", "size": 10 },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": { "horizontal": 0, "vertical": 12, "blur": 30, "spread": 0, "color": "rgba(176,138,71,0.4)" },
+                "_margin": { "unit": "px", "top": "24", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w_cta_guarantees",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;font-family:'Inter',sans-serif;font-size:13px;color:#7A7A75;\"><span style=\"display:flex;align-items:center;gap:6px;\"><i class=\"fas fa-check\" style=\"color:#B08A47;\"></i> Atendimento personalizado</span><span>&bull;</span><span style=\"display:flex;align-items:center;gap:6px;\"><i class=\"fas fa-check\" style=\"color:#B08A47;\"></i> Sem compromisso</span><span>&bull;</span><span style=\"display:flex;align-items:center;gap:6px;\"><i class=\"fas fa-check\" style=\"color:#B08A47;\"></i> Resposta rápida</span></div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_footer",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#181816",
+        "border_border": "solid",
+        "border_width": { "unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+        "border_color": "rgba(255,255,255,0.08)",
+        "padding": { "unit": "px", "top": "70", "right": "20", "bottom": "40", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "col_foot_brand",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 35 },
+          "elements": [
+            {
+              "id": "w_foot_brand",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"margin-bottom:14px;\"><div style=\"display:flex;align-items:center;gap:10px;\"><div style=\"width:36px;height:36px;background:#B08A47;color:#fff;border-radius:6px;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:'Playfair Display',serif;font-size:18px;\">P</div><div><div style=\"font-family:'Playfair Display',serif;font-weight:700;font-size:16px;letter-spacing:1px;color:#FFFFFF;\">PROJETART</div><div style=\"font-size:8px;letter-spacing:3px;color:#B08A47;font-weight:600;\">PLANEJADOS</div></div></div></div><p style=\"font-family:'Inter',sans-serif;font-size:13px;color:#7A7A75;line-height:1.6;margin-bottom:16px;\">Marcenaria sob medida e móveis planejados de alto padrão. Ambientes que combinam ergonomia, estética contemporânea e acabamento artesanal refinado.</p><div style=\"display:flex;gap:10px;\"><a href=\"https://instagram.com/projetartplanejados\" target=\"_blank\" style=\"width:36px;height:36px;border-radius:50%;background:#222220;border:1px solid rgba(255,255,255,0.1);color:#FFFFFF;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;\"><i class=\"fab fa-instagram\"></i></a><a href=\"https://wa.me/5511999998888\" target=\"_blank\" style=\"width:36px;height:36px;border-radius:50%;background:#222220;border:1px solid rgba(255,255,255,0.1);color:#25D366;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;\"><i class=\"fab fa-whatsapp\"></i></a></div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_foot_amb",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 20 },
+          "elements": [
+            {
+              "id": "w_foot_amb",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:#FFFFFF;margin-bottom:16px;\">Ambientes</div><ul style=\"list-style:none;padding:0;margin:0;font-family:'Inter',sans-serif;font-size:13px;line-height:2.2;\"><li style=\"margin:0;\"><a href=\"#ambientes\" style=\"color:#B4B4AD;text-decoration:none;\">Cozinhas Planejadas</a></li><li style=\"margin:0;\"><a href=\"#ambientes\" style=\"color:#B4B4AD;text-decoration:none;\">Dormitórios & Closets</a></li><li style=\"margin:0;\"><a href=\"#ambientes\" style=\"color:#B4B4AD;text-decoration:none;\">Livings & Salas Integradas</a></li><li style=\"margin:0;\"><a href=\"#galeria\" style=\"color:#B4B4AD;text-decoration:none;\">Home Office & Lavabos</a></li></ul>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_foot_inst",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 20 },
+          "elements": [
+            {
+              "id": "w_foot_inst",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:#FFFFFF;margin-bottom:16px;\">Institucional</div><ul style=\"list-style:none;padding:0;margin:0;font-family:'Inter',sans-serif;font-size:13px;line-height:2.2;\"><li style=\"margin:0;\"><a href=\"#inicio\" style=\"color:#B4B4AD;text-decoration:none;\">Início</a></li><li style=\"margin:0;\"><a href=\"#diferenciais\" style=\"color:#B4B4AD;text-decoration:none;\">Por que a Projetart</a></li><li style=\"margin:0;\"><a href=\"#sobre\" style=\"color:#B4B4AD;text-decoration:none;\">Nossa História</a></li><li style=\"margin:0;\"><a href=\"#depoimentos\" style=\"color:#B4B4AD;text-decoration:none;\">Depoimentos de Clientes</a></li></ul>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "col_foot_contact",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "w_foot_contact",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:#FFFFFF;margin-bottom:16px;\">Atendimento</div><div style=\"font-family:'Inter',sans-serif;font-size:13px;color:#B4B4AD;line-height:1.8;\"><div style=\"display:flex;align-items:flex-start;gap:8px;margin-bottom:10px;\"><i class=\"fas fa-map-marker-alt\" style=\"color:#B08A47;margin-top:4px;\"></i><span>Av. Duque de Caixias, 1200 - Jardins, São Paulo - SP</span></div><div style=\"display:flex;align-items:flex-start;gap:8px;margin-bottom:10px;\"><i class=\"fas fa-clock\" style=\"color:#B08A47;margin-top:4px;\"></i><span>Seg. a Sex. 09h às 19h<br>Sáb. 09h às 14h</span></div><div style=\"display:flex;align-items:center;gap:8px;\"><i class=\"fab fa-whatsapp\" style=\"color:#25D366;\"></i><span style=\"font-weight:600;color:#FFFFFF;\">(11) 99999-8888</span></div></div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_copyright",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": { "unit": "px", "size": 1240 },
+        "gap": "default",
+        "background_background": "classic",
+        "background_color": "#181816",
+        "padding": { "unit": "px", "top": "0", "right": "20", "bottom": "30", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "col_copy_main",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "w_copyright",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;text-align:center;font-family:'Inter',sans-serif;font-size:12px;color:#7A7A75;\"><p style=\"margin:0 0 4px 0;\">&copy; 2026 Projetart Planejados. Todos os direitos reservados.</p><p style=\"margin:0;\">Projetos residenciais sob medida e marcenaria de alto luxo.</p></div><div style=\"position:fixed;bottom:25px;right:25px;z-index:99999;\"><a href=\"https://wa.me/5511999998888\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;align-items:center;justify-content:center;width:60px;height:60px;background:#25D366;color:#ffffff;border-radius:50%;box-shadow:0 8px 25px rgba(37,211,102,0.4);text-decoration:none;font-size:30px;transition:all 0.3s ease;\"><i class=\"fab fa-whatsapp\"></i></a></div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
